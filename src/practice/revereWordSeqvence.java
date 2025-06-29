@@ -1,6 +1,6 @@
 package practice;
 
-public class revereWordSequvence {
+public class revereWordSeqvence {
 
 	public static void main(String[] args) {
 		String name="welcome to java again";
@@ -14,7 +14,6 @@ public class revereWordSequvence {
 			{
 				reversed.append(" ");
 			}
-			
 		}
 		System.out.println(reversed.toString());
 	}
