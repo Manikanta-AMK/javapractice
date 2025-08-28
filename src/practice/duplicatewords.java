@@ -23,25 +23,6 @@ public class duplicatewords {
 		  }
 		  System.out.println("unique words: "+String.join(" ", uniquewords));
 		  System.out.println("duplicate words: "+String.join(" ",duplicatewords));
-	
-	        
-	        
-//	        // convert to lowercase and split by spaces
-//	        String[] words = sentence.toLowerCase().split(" ");
-//	        
-//	        HashSet<String> uniqueWords = new HashSet<>();
-//	        HashSet<String> duplicateWords = new HashSet<>();
-//	        
-//	        for (String word : words) {
-//	            if (!uniqueWords.add(word)) {   // if already present → duplicate
-//	                duplicateWords.add(word);
-//	            }
-//	        }
-//	        
-//	        System.out.println("Duplicate words: " + duplicateWords);
-//	        
-//	        // Removing duplicates → just print uniqueWords
-//	        System.out.println("Sentence without duplicates: " + String.join(" ", uniqueWords));
 	    }
 	}
 

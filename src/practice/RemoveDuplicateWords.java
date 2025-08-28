@@ -8,9 +8,8 @@ public class RemoveDuplicateWords {
         String sentence = "Big black bug bit a big black dog on his big black nose";
         
         // Convert to lowercase to handle case-insensitive duplicates
-        sentence = sentence.toLowerCase();
+        String words[] = sentence.toLowerCase().split(" ");
         
-        String words[] = sentence.split(" ");
         
         // LinkedHashSet removes duplicates and preserves order
         LinkedHashSet<String> uniqueWords = new LinkedHashSet<>();
