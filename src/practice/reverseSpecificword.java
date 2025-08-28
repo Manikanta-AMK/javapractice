@@ -18,7 +18,7 @@ public class reverseSpecificword {
 			}
 			result.append(" ");
 		}
-		System.out.println(result.toString().trim());
+		System.out.println(result);
 	}
 
 }

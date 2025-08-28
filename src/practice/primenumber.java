@@ -6,9 +6,10 @@ public class primenumber {
 
 	public static void main(String[] args) {
 		
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("please enter the number");
-		int number = scanner.nextInt();
+//		Scanner scanner = new Scanner(System.in);
+//		System.out.println("please enter the number");
+//		int number = scanner.nextInt();
+		int number = 2;
 		if(isprime(number))
 		{
 			System.out.println(number + " is prime number");
@@ -26,7 +27,7 @@ public class primenumber {
 				return false;
 			}
 		}return true;
-		System.out.println("yes");
+		
 	}
 
 }

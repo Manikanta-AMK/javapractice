@@ -14,6 +14,7 @@ public class revereWordSeqvence {
 			{
 				reversed.append(" ");
 			}
+			
 		}
 		System.out.println(reversed.toString());
 	}

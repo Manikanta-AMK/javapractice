@@ -21,6 +21,7 @@ public class array {
 		a[3]=400;
 		a[4]=500;
 		System.out.println("second value is ="+a[1]);
+		
       // type declaration		
 		int b[] = {100,200,300,400,500};
 		

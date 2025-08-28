@@ -4,14 +4,9 @@ public class Reversenumber {
 
 	public static void main(String [] args)
 	{
-		int n = 12345;
-		int rev =0;
-		while(n!=0)
-		{
-			int r = n%10;
-			n = n/10;
-			rev = rev*10+r;
-		}
-		System.out.println("number reversed "+rev);
+		String s1 = "Hello";
+		String s2 = new String("Hello");
+		System.out.println(s1==s2);
+		System.out.println(s1.equals(s2));
 	}
 }

@@ -10,7 +10,7 @@ public class letterscount {
 		
 		for(int i=0;i<name.length();i++)
 		{
-			if(name.charAt(i)== target || name.charAt(i)== Character.toUpperCase(target))
+			if(name.charAt(i)== target) // || name.charAt(i)== Character.toUpperCase(target))
 			{
 				count++;
 			}

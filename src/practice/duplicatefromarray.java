@@ -16,8 +16,9 @@ public class duplicatefromarray {
 			if(!seen.add(num))
 			{
 				duplicates.add(num);
-			}
+			} 
 		}
 		System.out.println("duplicate numbers are removed " + duplicates);
+		System.out.println("unique numbers "+ seen);
 	}
 }
