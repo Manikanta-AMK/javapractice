@@ -11,7 +11,7 @@ import java.util.Iterator;
 public class array {
 
 	public static void main(String[] args) {
-		
+		//new comment
 		// single dimentional array 
 		//type1 declareation
 		int a[] = new int[5];
