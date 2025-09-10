@@ -9,7 +9,7 @@ public class reversenumber {
 		Scanner sc= new Scanner(System.in);
 		System.out.println("please eneter the number");
 		int num = sc.nextInt();
-////		int rev = 0;
+// 	int rev = 0;
 //		
 //		while(num!=0)
 //		{
