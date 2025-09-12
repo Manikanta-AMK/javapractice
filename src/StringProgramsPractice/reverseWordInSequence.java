@@ -14,7 +14,7 @@ public class reverseWordInSequence {
 		{
 			reversed.append(name2[i]);
 			if(i!=0)
-			{
+			{ 
 				reversed.append(" ");
 			}
 		}System.out.println("reversed words are: "+reversed);

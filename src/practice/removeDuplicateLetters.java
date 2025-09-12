@@ -21,8 +21,8 @@ public class removeDuplicateLetters {
 	        
 	        // Rebuild sentence without duplicates
 	        StringBuilder result = new StringBuilder();
-	        for (String word : uniqueLetters) {
-	            result.append(word).append(" ");
+	        for (Character word : uniqueLetters) {
+	            result.append(word).append("");
 	        }
 	        
 	        System.out.println("Original: " + sentence);
