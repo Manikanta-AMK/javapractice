@@ -27,5 +27,18 @@ public class removeDuplicateLetters {
 	        
 	        System.out.println("Original: " + sentence);
 	        System.out.println("Without Duplicates: " + result.toString().trim());
+	        
+	        
+	        String name = "manikantaarige";
+	        char[] ch = name.toCharArray();
+	        LinkedHashSet<Character> uniqueLetters1 = new LinkedHashSet<>();
+	        LinkedHashSet<Character> uniqueLetters3 = new LinkedHashSet<>();
+	        for (Character character : ch) {
+	        	if (!uniqueLetters1.add(character)) {
+	        		uniqueLetters3.add(character);
+				}
+			}
+	        System.out.println("Without Duplicates: "+uniqueLetters1);
+	        System.out.println("Duplicates: "+uniqueLetters3);
 	    }
 }

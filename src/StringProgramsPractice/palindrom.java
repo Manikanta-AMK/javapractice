@@ -15,5 +15,15 @@ public class palindrom {
 			System.out.println("name is not palindrome");
 		}
 		
+		String name2 = "abcba";
+		StringBuilder sb1 = new StringBuilder(name2);
+		String reverse = sb1.reverse().toString();
+		System.out.println(reverse);
+		if(reverse.equals(name2))
+		{
+			System.out.println("name2 is palindrome "+reverse);
+		}else {
+			System.out.println("name2 is not palindrome "+reverse);
+		}
 	}
 }

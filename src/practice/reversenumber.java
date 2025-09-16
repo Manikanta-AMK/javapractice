@@ -6,9 +6,8 @@ public class reversenumber {
 
 	public static void main(String[] args) {
 		
-		Scanner sc= new Scanner(System.in);
-		System.out.println("please eneter the number");
-		int num = sc.nextInt();
+		
+		int num = 12345;
 // 	int rev = 0;
 //		
 //		while(num!=0)
@@ -23,11 +22,11 @@ public class reversenumber {
 		
 		
 		StringBuilder sbl = new StringBuilder();
-		sbl.append(num);
+//		sbl.append(num);
 		sbl.reverse();
-		System.out.println("reverse number is "+rev + "and" +"reverse number is "+rev );
+		System.out.println("reverse number is "+rev + " and " +"reverse sbl number is "+sbl );
 		
 	}
 	
-	
+	 
 }
