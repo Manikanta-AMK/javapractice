@@ -12,5 +12,16 @@ public class factorial {
 			fact = fact*i;
 		}
 		System.out.println("factorial is "+fact);
+		
+		
+		int num = 1;
+		int n1 =5;
+		
+		for(int i=1;i<=n1;i++)
+		{
+			num = num*i;
+		}
+		System.out.println("factorial: "+num);
+		
 	}
 }

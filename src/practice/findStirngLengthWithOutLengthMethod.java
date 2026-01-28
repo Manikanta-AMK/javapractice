@@ -11,5 +11,7 @@ public class findStirngLengthWithOutLengthMethod {
 			count++;
 		}
 		System.out.println("Lenght of the String is: "+count);
+		
+		System.out.println(name.length());
 	}
 }

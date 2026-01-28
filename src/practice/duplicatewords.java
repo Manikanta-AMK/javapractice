@@ -23,6 +23,20 @@ public class duplicatewords {
 		  }
 		  System.out.println("unique words: "+String.join(" ", uniquewords));
 		  System.out.println("duplicate words: "+String.join(" ",duplicatewords));
-	    }
-	}
+	
+		LinkedHashSet<String> uniq = new LinkedHashSet<String>();
+		LinkedHashSet<String> dup = new LinkedHashSet<String>();
+		
+		for(String word1: words)
+		{
+			if(!uniq.add(word1))
+			{
+				dup.add(word1);
+			}
+		}
+		
+		System.out.println("uniqword: "+String.join(" ", uniq));
+		System.out.println("dup: "+ String.join(" ", dup));
+	
+	}}
 

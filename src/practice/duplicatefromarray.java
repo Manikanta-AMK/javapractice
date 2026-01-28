@@ -20,5 +20,30 @@ public class duplicatefromarray {
 		}
 		System.out.println("duplicate numbers are removed " + duplicates);
 		System.out.println("unique numbers "+ uniqeNumber);
+	
+		
+		HashSet<Integer> uniq = new HashSet<Integer>();
+		HashSet<Integer> dup = new HashSet<Integer>();
+		
+		for(int num: numbers)
+		{
+			if(!uniq.add(num))
+			{
+				dup.add(num);
+			}
+		}
+		System.out.println("uniq number: "+ uniq);
+		System.out.println("dup number: "+ dup);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	}
 }
