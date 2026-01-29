@@ -1,4 +1,4 @@
-package collections;
+package collections.queInterface;
 
 import java.util.ArrayDeque;
 import java.util.LinkedList;
