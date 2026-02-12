@@ -4,7 +4,7 @@ public class reverseString {
 
 	public static void main(String[] args) {
 
-		String name = "Manikanta";
+		String name = "Manikanta Arige";
 		
 		//reverse with inbuilt methods like--- StringBuilder() or StringBuffer() 
 		StringBuilder sb = new StringBuilder(name);
