@@ -28,12 +28,9 @@ public class AnagramCheck {
 //    	String[] name1 = "manikanta";
 //    	String[] name2 = "atnakinam";
 //    	
-//    	if(name1==name2)
-//    	{
-//    		System.out.println("yes");
-//    	}else {
-//    		System.out.println("no");
-//    	}
+        char[] ch1 = name.toCharArray();
+		char[] ch2 = reverse.toCharArray();
+		System.out.println(Arrays.equals(ch1,  ch2));
     
     
     

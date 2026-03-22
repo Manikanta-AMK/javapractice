@@ -6,7 +6,7 @@ public class removeDuplicateWords {
 
 	public static void main(String[] args) {
 		
-		String name = "Big black bug bit a big black dog on his big black nose";
+		String name = "big black bug bit a big black dog on his big black nose";
 		String [] words = name.split(" ");
 		
 		LinkedHashSet<String> uniq = new LinkedHashSet<String>();

@@ -15,5 +15,23 @@ public class characterOccurance {
 			map.put(ch, map.getOrDefault(ch, 0)+1);
 		}
 		System.out.println(map);
+		
+		
+		char[] characters = name.toCharArray();
+		HashMap<Character, Integer> map1 = new HashMap<Character,Integer>();
+		char target = 'a';
+		for(char character: characters)
+		{
+			if(target==character)
+			{
+				map1.put(character,map1.getOrDefault(character,0)+1);
+			}
+			
+			
+		}
+		System.out.println(map1);
+		
+		
+		
 	}
 }

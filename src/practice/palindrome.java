@@ -30,5 +30,28 @@ public class palindrome {
 			System.out.println("String is not palindrome");
 		}
 		
+		String name = "madam";
+		String reversestring = "";
+		for(int i=name.length()-1;i>=0;i--)
+		{
+			reversestring = reversestring+name.charAt(i);
+		}
+		System.out.println("reverse string is: "+ reversestring);
+			
+		if(reversestring.equals(name))
+		{
+			System.out.println("given string is palindrome");
+		}else {
+			System.out.println("given string is not palindrome");
+		}
+		
+		String name2 = name;
+		
+		if(name.equals(name2))
+		{
+			System.out.println("given string is palindrome");
+		}else {
+			System.out.println("given string is not palindrome");
+		}
 	}
 }

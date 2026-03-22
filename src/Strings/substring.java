@@ -6,7 +6,7 @@ public class substring {
 		    public static void main(String[] args) {
 
 		        String words = "aaabbc";
-
+		        System.out.println(words.substring(0,5));
 		        String s1 = words.substring(0, 3); // aaa
 		        String s2 = words.substring(3, 5); // bb
 		        String s3 = words.substring(5);    // c

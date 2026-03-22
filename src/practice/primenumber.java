@@ -16,6 +16,18 @@ public class primenumber {
 		}else {
 			System.out.println(number + " is not prime number");
 		}
+		
+		int num = 10;
+		
+		if(num%3==0)
+		{
+			System.out.println("the number is prime");
+		}else {
+			System.out.println("the number is not prime");
+		}
+		
+		
+		
 	}
 	
 	public static boolean isprime(int num)

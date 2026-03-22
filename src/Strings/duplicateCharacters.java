@@ -22,5 +22,23 @@ public class duplicateCharacters {
 		}
 		System.out.println("uniq characters are: "+ uniqChar);
 		System.out.println("duplicat Characters are: "+duplicateChar);
+	
+	
+	char[] newch = {'c','d','g','h','e','s','d','d','g','h'};
+	
+	HashSet<Character> uniqChar1 = new HashSet<Character>();
+	HashSet<Character> duplicateChar1 = new HashSet<Character>();
+	 
+	for(char newcharacter: newch)
+	{
+		if(!uniqChar1.add(newcharacter))
+		{
+			duplicateChar1.add(newcharacter);
+		}
+	}
+	System.out.println("uniq characters are: "+ uniqChar1);
+	System.out.println("duplicat Characters are: "+duplicateChar1);
+	
+	
 	}
 }

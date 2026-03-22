@@ -19,7 +19,7 @@ package practice;
 public class reversestring {
 
 	public static void main(String[] args) {
-		String name = "Manikanta";
+		String name = "Manikanta Arige";
 		String reverse = "";
 		int len = name.length();
 

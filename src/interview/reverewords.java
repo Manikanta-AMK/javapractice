@@ -17,5 +17,14 @@ public class reverewords {
 		StringBuilder sb = new StringBuilder(name);
 		StringBuilder reverse2 = sb.reverse();
 		System.out.println(reverse2);
+
+		for(int i=reverse.length-1;i>=0;i--)
+		{
+			System.out.print(reverse[i]+" ");
+		}
+
+	
+	
+	
 	}
 }

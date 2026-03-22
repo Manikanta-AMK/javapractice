@@ -1,5 +1,7 @@
 package StringProgramsPractice;
 
+import java.util.Arrays;
+
 public class reverseString {
 
 	public static void main(String[] args) {
@@ -18,5 +20,7 @@ public class reverseString {
 			reverse = reverse+name.charAt(i);
 		}
 		System.out.println("String is reveresed: "+reverse);
+		
+		
 	}
 }

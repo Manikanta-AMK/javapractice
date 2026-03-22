@@ -54,13 +54,13 @@ public class revereWordSeqvence {
 		for(int i=words.length-1;i>=0;i--)
 		{
 			reversed.append(words[i]); 
-			if(i!=0)
+			if(i!=0) 
 			{
 				reversed.append(" ");
 			}
 			
 		}
-		System.out.println("reversed by word "+reversed.toString());
+		System.out.println("reversed by word: "+reversed.toString());
 		
 		String name2 = "Manikanta Arige";
 		String[] names = name2.split(" ");
@@ -73,7 +73,7 @@ public class revereWordSeqvence {
 		{
 			if(!name3.equals("Manikanta"))
 			{
-				lastname = name3;
+				lastname = name3; 
 			}
 			else {
 				firstname = name3;
@@ -81,9 +81,9 @@ public class revereWordSeqvence {
 		}
 		String reversename = lastname.concat(" "+ firstname);
 		System.out.println("reversedname is: "+reversename);
-		List<String> listname = Arrays.asList(name2);
-		listname.sort(Comparator.comparingInt(String::length).thenComparing(Comparator.naturalOrder()));
-		System.out.println("listname is: "+listname);
+//		List<String> listname = Arrays.asList(name2);
+//		listname.sort(Comparator.comparingInt(String::length).thenComparing(Comparator.naturalOrder()));
+//		System.out.println("listname is: "+listname);
 		
 	}
 }

@@ -1,4 +1,4 @@
-package practice2;
+ package practice2;
 
 public class factorial {
 

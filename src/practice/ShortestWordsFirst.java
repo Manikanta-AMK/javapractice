@@ -33,7 +33,7 @@ public class ShortestWordsFirst  {
 		
 		for(String w: splitwords)
 		{
-			System.out.println(w);
+			System.out.print(w+" ");
 		}
 	}
 }
