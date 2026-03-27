@@ -11,7 +11,7 @@ import java.util.Iterator;
 public class array {
 
 	public static void main(String[] args) {
-		
+		//new comment
 		// single dimentional array 
 		//type1 declareation
 		int a[] = new int[5];
@@ -21,6 +21,7 @@ public class array {
 		a[3]=400;
 		a[4]=500;
 		System.out.println("second value is ="+a[1]);
+		
       // type declaration		
 		int b[] = {100,200,300,400,500};
 		

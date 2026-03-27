@@ -6,15 +6,28 @@ public class primenumber {
 
 	public static void main(String[] args) {
 		
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("please enter the number");
-		int number = scanner.nextInt();
+//		Scanner scanner = new Scanner(System.in);
+//		System.out.println("please enter the number");
+//		int number = scanner.nextInt();
+		int number = 2;
 		if(isprime(number))
 		{
 			System.out.println(number + " is prime number");
 		}else {
 			System.out.println(number + " is not prime number");
 		}
+		
+		int num = 10;
+		
+		if(num%3==0)
+		{
+			System.out.println("the number is prime");
+		}else {
+			System.out.println("the number is not prime");
+		}
+		
+		
+		
 	}
 	
 	public static boolean isprime(int num)
@@ -26,7 +39,7 @@ public class primenumber {
 				return false;
 			}
 		}return true;
-		System.out.println("yes");
+		
 	}
 
 }

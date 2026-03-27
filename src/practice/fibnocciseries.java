@@ -18,5 +18,21 @@ public class fibnocciseries {
 			first=second;
 			second=next;
 		}
+		System.out.println(" ");
+		int number1 = 6;
+		int first1 =0;
+		int second1=1;
+		int next1;
+		
+		for(int i=0;i<=number1;i++)
+		{
+			System.out.print(first1+ "");
+			next1=first1+second1;
+			first1=second1;
+			second1=next1;
+		}
+		
+		
+		
 	}
 }
