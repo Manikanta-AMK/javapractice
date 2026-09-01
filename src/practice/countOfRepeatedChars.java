@@ -26,12 +26,12 @@ public class countOfRepeatedChars {
 		System.out.println("the count of the repeated words "+hm);
 		
 		
-		for(Entry<Character, Integer> entry: hm.entrySet())
-		{
-			if(entry.getValue()==1)
-			{
-				System.out.println("the key is "+entry.getKey());
-			}
-		}
+//		for(Entry<Character, Integer> entry: hm.entrySet())
+//		{
+//			if(entry.getValue()==1)
+//			{
+//				System.out.println("the key is "+entry.getKey());
+//			}
+//		}
 	}
 }

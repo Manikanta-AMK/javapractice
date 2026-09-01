@@ -15,5 +15,22 @@ public class numberreverse {
 		}
 		System.out.println(rev);
 		
+		// reversing the number by converting in to string
+		
+		  int num1 = 12345;
+
+	        // Convert number to string
+	        String str = String.valueOf(num1);
+
+	        // Reverse the string
+	        String rev1 = "";
+	        for (int i = str.length() - 1; i >= 0; i--) {
+	            rev1 = rev1 + str.charAt(i);
+	        }
+
+	        // Convert back to number (optional)
+	        int reversedNum = Integer.parseInt(rev1);
+
+	        System.out.println("Reversed number: " + reversedNum);
 	}
 }

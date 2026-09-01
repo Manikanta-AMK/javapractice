@@ -8,7 +8,7 @@ public class CheckIfTwoStringsAreAnagrams {
 		
 		String name = "Manikanta";
 		String name1 = "Manikanta";
-		
+		 
 		char[] ch1 = name.toCharArray();
 		char[] ch2 = name1.toCharArray();
 		

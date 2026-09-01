@@ -7,17 +7,16 @@ public class highestOccurringCharacter {
 	public static void main(String[] args) {
 		
 		String name  = "Manikanta arige";
-		char[] ch = name.toCharArray();
 
 		HashMap<Character, Integer> map = new HashMap<>();
 		
-		for(char c: ch)
+		for(char c: name.toCharArray())
 		{
 			map.put(c, map.getOrDefault(c, 0)+1);
 		}
 		System.out.println("the count of the all letters"+ map);
 		
-		char maxchar = ' ';
+		char maxchar = ' '; 
 		int maxcount = 0;
 		
 		for(char c : map.keySet())

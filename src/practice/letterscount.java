@@ -18,6 +18,15 @@ public class letterscount {
 		System.out.println("the count of a is: "+ count);
 		String change = name.toLowerCase().replace("a", "");
 		System.out.println("a letters are removed "+change);
+		
+		String[] words = name.split("");
+		StringBuilder reverse = null;
+		for(String word: words)
+		{
+			StringBuilder sb = new StringBuilder(word);
+			 reverse = sb.reverse();
+		}
+		System.out.println(reverse);
 	}
-	
+
 }

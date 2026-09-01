@@ -13,5 +13,20 @@ public class ReverseAString {
 		}
 		System.out.println("reverse name is: "+reverse);
 		
+		StringBuilder sb = new StringBuilder(name);
+		StringBuilder s1 = sb.reverse();
+		System.out.println(s1);
+		
+		String[] words = name.split("");
+		for(String word:words)
+		{
+			if(int j=word.length()-1;j>=0;j--)
+			{
+				
+			}
+		}
+		
+		
+		
 	}
 }

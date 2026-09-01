@@ -15,5 +15,18 @@ public class FindFirstNonRepeatedCharacter {
 				break;
 			}
 		}
+		
+		//with for each loop
+		
+		for(char c: name.toCharArray())
+		{
+			if(name.indexOf(c)==name.lastIndexOf(c))
+			{
+				System.out.println("first non repeated character is: "+c);
+				break;
+			}
+		}
+		
+		
 	}
 }
